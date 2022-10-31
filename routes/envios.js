@@ -11,7 +11,7 @@ const router = Router();
 
 router.get('/', getenvios)
 router.post('/', postenvios)
-router.put('/', putenvios)
-router.delete('/', deleteenvios)
+router.put('/:id', putenvios)
+router.delete('/:id', deleteenvios)
 
 module.exports = router
